@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Auto-update README with docs before commit
+./scripts/update_readme.sh
+
+# Stage the updated README
+git add README.md
