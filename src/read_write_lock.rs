@@ -1,3 +1,5 @@
+//! Custom Read-Write Lock using Tokio semaphores
+
 use std::sync::{Arc, Mutex};
 use tokio::sync::{Semaphore, SemaphorePermit};
 use rand::Rng;

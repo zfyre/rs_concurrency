@@ -1,3 +1,5 @@
+//! Entry point for concurrency demos
+
 mod dfs_concurr;
 mod read_write_lock;
 

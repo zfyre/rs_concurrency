@@ -1,3 +1,5 @@
+//! Concurrent DFS algorithms
+
 use rand::Rng;
 use tokio::sync::{Mutex, Semaphore};
 use std::sync::Arc;
