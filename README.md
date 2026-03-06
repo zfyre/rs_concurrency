@@ -8,6 +8,7 @@ A hands-on project exploring concurrency patterns in Rust using Tokio.
 src/
 ├── dfs_concurr.rs       # Concurrent DFS algorithms
 ├── main.rs              # Entry point for concurrency demos
+├── optimistic_locking.rs # Optimistic Locking OR Atomics without Ordering Understanding!!! 
 ├── read_write_lock.rs   # Custom Read-Write Lock using Tokio semaphores
 └── total_ordering_for_deadlocks.rs # Deadlock prevention using total ordering
 
